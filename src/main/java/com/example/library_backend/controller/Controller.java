@@ -9,4 +9,8 @@ public class Controller {
     public String Adminlogin(){
         return "welcome to  adminlogin";
     }
+    @PostMapping("/userlogin")
+    public String Userlogin(){
+        return "welcome to userlogin";
+    }
 }
