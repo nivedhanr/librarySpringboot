@@ -17,4 +17,9 @@ public class Controller {
     public String Userreg(){
         return "Welcome to user registration";
     }
+    @PostMapping("/add")
+    public String Add(){
+        return "add book";
+
+    }
 }
