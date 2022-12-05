@@ -13,4 +13,8 @@ public class Controller {
     public String Userlogin(){
         return "welcome to userlogin";
     }
+    @PostMapping("/userreg")
+    public String Userreg(){
+        return "Welcome to user registration";
+    }
 }
