@@ -30,4 +30,8 @@ public class Controller {
     public String Edit(){
         return "welcome to book edit";
     }
+    @PostMapping("/delete")
+    public String Delete(){
+        return "Welcome to delete book";
+    }
 }
