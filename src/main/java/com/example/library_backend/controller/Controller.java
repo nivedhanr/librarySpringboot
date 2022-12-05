@@ -22,4 +22,8 @@ public class Controller {
         return "add book";
 
     }
+    @PostMapping("/search")
+    public String Search(){
+        return "Welcome to book search";
+    }
 }
