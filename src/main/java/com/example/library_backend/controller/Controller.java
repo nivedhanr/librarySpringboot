@@ -26,4 +26,8 @@ public class Controller {
     public String Search(){
         return "Welcome to book search";
     }
+    @PostMapping("/edit")
+    public String Edit(){
+        return "welcome to book edit";
+    }
 }
