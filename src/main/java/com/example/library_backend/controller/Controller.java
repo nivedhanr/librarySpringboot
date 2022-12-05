@@ -34,4 +34,9 @@ public class Controller {
     public String Delete(){
         return "Welcome to delete book";
     }
+    @PostMapping("/issue")
+    public String Issue(){
+        return "Welcome to book issue";
+
+    }
 }
